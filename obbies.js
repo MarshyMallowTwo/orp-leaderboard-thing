@@ -53,4 +53,40 @@ const obbies = [
         quality: "D",
         creator: "leqay"
     },
+  {
+        name: "Loving Darkness",
+        difficulty: {
+            name: "Terrifying",
+            value: 10.90
+        },
+        quality: "A",
+        creator: "yxrite"
+    },
+  {
+        name: "Construct (V2)",
+        difficulty: {
+            name: "Terrifying",
+            value: 10.82
+        },
+        quality: "S",
+        creator: "BR7H"
+    },
+  {
+        name: "MAJESTY",
+        difficulty: {
+            name: "Terrifying",
+            value: 10.30
+        },
+        quality: "D",
+        creator: "1tcombo"
+    },
+  {
+        name: "HONORARY IN MUMBAI",
+        difficulty: {
+            name: "Terrifying",
+            value: 10.25
+        },
+        quality: "C",
+        creator: "Augmented"
+    },
 ]
