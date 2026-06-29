@@ -1,34 +1,56 @@
 const obbies = [
     {
-        name: "High Quality Obby",
+        name: "dark://star - Spectrum 90%",
         difficulty: {
-            name: "Intense",
-            value: 6.99
+            name: "Horrific",
+            value: 12.33
         },
-        creator: "John Doe"
+        quality: "S",
+        creator: "Nicoo"
     },
     {
-        name: "Obby of Doom",
+        name: "Tower of Glorious The Second",
         difficulty: {
-            name: "Terrifying",
-            value: 10.78
+            name: "Horrific",
+            value: 12.02
         },
-        creator: "Jane Smith"
-    },
-     {
-        name: "Obby of Fun Things :D",
-        difficulty: {
-            name: "Nil",
-            value: 14.03
-        },
-        creator: "MarshyMallow"
+        quality: "C",
+        creator: "Zorloth"
     },
     {
-        name: "a verrrrrrrrrrrrrrrrrrrrrrrry long walk",
+        name: "Escapeless Void",
         difficulty: {
-            name: "Unreal",
-            value: 13.10
+            name: "Catastrophic",
+            value: 11.75
         },
-        creator: "Not MarshyMallow trust :D"
-    }
+        quality: "B",
+        creator: "fbarb11"
+    },
+    {
+        name: "Solar Remnant",
+        difficulty: {
+            name: "Catastrophic",
+            value: 11.45
+        },
+        quality: "S",
+        creator: "kingnoah"
+    },
+    {
+        name: "Purist Hell",
+        difficulty: {
+            name: "Catastrophic",
+            value: 11.33
+        },
+        quality: "B",
+        creator: "bLockerman666"
+    },
+    {
+        name: "Sh4ng's Demise",
+        difficulty: {
+            name: "Catastrophic",
+            value: 11.20
+        },
+        quality: "D",
+        creator: "leqay"
+    },
 ]

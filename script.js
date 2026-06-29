@@ -11,15 +11,17 @@ obbies.forEach((obby, index) => {
     item.className = "item";
 
     const rank = index + 1;
-    const color = difficulties[obby.difficulty.name] || "#FFFFFF";
+    const difficultyColor = difficulties[obby.difficulty.name] || "#FFFFFF";
+    const qualityBase = obby.quality.replace("+", "").replace("-", "")
+    const qualityColor = qualities[qualityBase] || "#FFFFFF";
 
     item.innerHTML = `
-    <span class="rank" style="color:${color}">#${rank}</span>
+    <span class="rank" style="color:${difficultyColor}">#${rank}</span>
     <span class="name">${obby.name}</span>
-    <span class="value" style="color:${color}">${obby.difficulty.value.toFixed(2)}</span>
+    <span class="value" style="color:${difficultyColor}">${obby.difficulty.value.toFixed(2)}</span>
 `;
 
-    item.style.borderleft = `6px solid ${color}`;
+    item.style.borderleft = `6px solid ${difficultyColor}`;
 
     item.addEventListener("click", () => {
     infoBox.innerHTML = `
@@ -38,11 +40,24 @@ obbies.forEach((obby, index) => {
     <span class="label">Difficulty</span>
 
     <span class="value">
-    <span style="color:${color}">
+    <span style="color:${difficultyColor}">
     ${obby.difficulty.name} 
     </span>
     <span>
     (${obby.difficulty.value.toFixed(2)})
+    </span>
+    </div>
+
+    <div class="stat">
+    <span class="label">Quality</span>
+
+    <span
+    class="quality-badge"
+    style="
+    color:${qualityColor};
+    "
+    >
+    ${obby.quality}
     </span>
     </div>
 

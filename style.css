@@ -85,6 +85,7 @@ h1{
 .stat{
     display:flex;
     justify-content:space-between;
+    align-items:center;
     padding:10px 15px;
     background:#222;
     border-radius:10px;
@@ -96,5 +97,11 @@ h1{
 }
 
 .stat .value{
+    font-weight:bold;
+}
+
+.quality-badge{
+    padding:4px 10px;
+    border-radius:8px;
     font-weight:bold;
 }

@@ -33,3 +33,19 @@ const difficultyWeight = {
     "Unreal": 13,
     "Nil": 14,
 }
+
+const qualities = {
+    "P": "#0011FF",
+    "SSS": "#FF69B4",
+    "SS": "#FF00FF",
+    
+    "S": "#8B0000",
+    "A": "#FF8800",
+    "B": "#FFB347",
+    "C": "#FFFF00",
+    "D": "#00CC00",
+
+    "F": "#00FFFF",
+
+    "Tung Tung Sahur": "#6B4423",
+}
