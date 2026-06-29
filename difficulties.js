@@ -11,7 +11,7 @@ const difficulties = {
     "Extreme": "#00BFFF",
     "Terrifying": "#00FFFF",
     "Catastrophic": "#FFFFFF",
-    "Horrific": "#A53BF1",
+    "Horrific": "#9691FF",
     "Unreal": "#700196",
     "Nil": "#808080",
 }
@@ -38,8 +38,8 @@ const qualities = {
     "P": "#0011FF",
     "SSS": "#FF69B4",
     "SS": "#FF00FF",
-    
-    "S": "#8B0000",
+
+    "S": "#ff0000",
     "A": "#FF8800",
     "B": "#FFB347",
     "C": "#FFFF00",
