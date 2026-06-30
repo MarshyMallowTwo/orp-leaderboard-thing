@@ -72,21 +72,21 @@ const obbies = [
         creator: "BR7H"
     },
   {
-        name: "MAJESTY",
+        name: "Tartarus Orpby",
         difficulty: {
-            name: "Terrifying",
-            value: 10.30
+            name: "Catastrophic",
+            value: 11.83
         },
-        quality: "D",
-        creator: "1tcombo"
+        quality: "F",
+        creator: "yuki"
     },
   {
-        name: "HONORARY IN MUMBAI",
+        name: "Adrenaline",
         difficulty: {
-            name: "Terrifying",
-            value: 10.25
+            name: "Catastrophic",
+            value: 11.35
         },
-        quality: "C",
-        creator: "Augmented"
+        quality: "A",
+        creator: "Bacon"
     },
 ]
