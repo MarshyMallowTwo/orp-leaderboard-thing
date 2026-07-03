@@ -39,7 +39,7 @@ const obbies = [
         name: "Purist Hell",
         difficulty: {
             name: "Catastrophic",
-            value: 11.33
+            value: 11.22
         },
         quality: "B",
         creator: "bLockerman666"
@@ -54,28 +54,28 @@ const obbies = [
         creator: "leqay"
     },
   {
-        name: "Loving Darkness",
+        name: "Wigglarp",
         difficulty: {
-            name: "Terrifying",
-            value: 10.90
+            name: "Catastrophic",
+            value: 11.91
         },
-        quality: "A",
-        creator: "yxrite"
+        quality: "D",
+        creator: "yuki"
     },
   {
-        name: "Construct (V2)",
+        name: "Echoes of Monochrome",
         difficulty: {
-            name: "Terrifying",
-            value: 10.82
+            name: "Catastrophic",
+            value: 11.63
         },
-        quality: "S",
-        creator: "BR7H"
+        quality: "B-",
+        creator: "Nick"
     },
   {
         name: "Tartarus Orpby",
         difficulty: {
             name: "Catastrophic",
-            value: 11.83
+            value: 11.33
         },
         quality: "F",
         creator: "yuki"
@@ -84,7 +84,7 @@ const obbies = [
         name: "Adrenaline",
         difficulty: {
             name: "Catastrophic",
-            value: 11.35
+            value: 11.40
         },
         quality: "A",
         creator: "Bacon"

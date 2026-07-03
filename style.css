@@ -160,3 +160,22 @@ html, body{
     font-weight:600;
     letter-spacing:0.5px;
 }
+
+.leaderboard-selector{
+    text-align:center;
+    margin:15px 0;
+}
+
+.leaderboard-selector button{
+    background:#222;
+    color:white;
+    border:none;
+    padding:8px 18px;
+    margin:0 5px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.leaderboard-selector button:hover{
+    background:#333;
+}

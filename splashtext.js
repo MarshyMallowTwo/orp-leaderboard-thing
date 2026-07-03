@@ -4,11 +4,16 @@ const splashTexts = [
     {text: "why are you still here", weight: 5.75},
     {text: "touch grass", weight: 4.5},
     {text: "new top 1 just dropped", weight: 4.25},
+    {text: "50 hour timedump ginch", weight: 2.5},
     {text: "tung tung tung sahur", weight: 1.25},
     {text: "ungtay ungtay ungtay ahursay", weight: 1},
-    {text: "go and play orp rn or else", weight: 0.75},
+    {text: "larp larp larp sahur", weight: 1},
+    {text: "tung was here", weight: 0.75},
+    {text: "MarshyMallow was here 2026", weight: 0.5},
+    {text: "go and play orp rn or else", weight: 0.5},
+    {text: "click 104 pixels above the bottom right corner for a hidden surprise", weight: 0.25},
     {text: "all roads lead to Sh4ng's Demise being top 1", weight: 0.001},
-    {text: "This is the rarest splashtext btw", weight: 0.0000000000001}
+    {text: "This is the rarest splashtext btw", weight: 0.000000001}
 ];
 
 function getWeightedSplash() {
